@@ -1,0 +1,36 @@
+.about-us {
+  padding: 45px 0 80px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text-inner {
+    padding: 15px 0 0 0;
+    max-width: 459px;
+  }
+
+  &__title {
+    font-size: 35px;
+    color: rgb(44, 62, 80);
+    margin-bottom: 25px;
+    font-weight: 300;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  &__img-text {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+
+  &__img {
+    width: 380px;
+    height: 480px;
+  }
+}

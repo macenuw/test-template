@@ -1,3 +1,13 @@
-body{
-    background-color: red;
-}
+@import'global/reset';
+@import'global/vars';
+@import'global/fonts';
+@import'global/libs';
+@import'global/global';
+// components
+@import'./components/menu.scss';
+// blocks
+@import'./blocks/header.scss';
+@import'./blocks/top-section.scss';
+@import'./blocks/about-us.scss';
+@import'./blocks/register.scss';
+@import'./blocks/footer.scss';

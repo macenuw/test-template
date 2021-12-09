@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 38px;
+    }
+  }
+
+  &__link {
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid transparent;
+    padding: 0 2px 4px 2px;
+    transition: .3s;
+
+    &:hover {
+      border-color: white;
+    }
+  }
+}
